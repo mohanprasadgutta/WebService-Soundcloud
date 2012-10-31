@@ -1,0 +1,25 @@
+---
+name: WebService-Soundcloud
+version: 0.01
+author:
+  - 'Mohan Prasad Gutta <mohanprasadgutta@gmail.com>'
+abstract: Thin wrapper around Soundcloud RESTful API!
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  perl: 5.006
+build_requires:
+  HTTP::Headers: 0
+  JSON: 0
+  LWP::UserAgent: 0
+  Test::More: 0
+  URI: 0
+provides:
+  WebService::Soundcloud:
+    file: lib/WebService/Soundcloud.pm
+    version: 0.01
+generated_by: Module::Build version 0.280801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
